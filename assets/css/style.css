@@ -257,6 +257,7 @@ body {
   align-items: center;
   column-gap: 1%;
 }
+
 /*Phone Konten 2*/
 @media only screen and (max-width: 768px) {
   .content2 {
@@ -264,7 +265,6 @@ body {
   }
 }
 .content2 .container {
-  max-width: auto;
   display: grid;
   grid-template-rows: auto auto;
   background-color: white;
@@ -276,8 +276,7 @@ body {
 }
 .content2 img {
   padding: 10px;
-  width: 90%;
-  padding-left: 15px;
+  width: auto;
 }
 .content2 p {
   padding-left: 10px;
@@ -368,4 +367,11 @@ body {
   .vids video {
     width: 100%;
   }
+}
+/*Ini Prodi*/
+.prodi {
+}
+.prodi p {
+  font-size: 40px;
+  text-align: center;
 }
