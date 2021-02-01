@@ -15,6 +15,8 @@ body {
 /*Navbar*/
 @media only screen and (min-width: 769px) {
   .topnav {
+    display: grid;
+    grid-template-rows: auto;
     padding: 10px;
     overflow: hidden;
     background-color: #f8f8f8;
@@ -257,7 +259,6 @@ body {
   align-items: center;
   column-gap: 1%;
 }
-
 /*Phone Konten 2*/
 @media only screen and (max-width: 768px) {
   .content2 {
@@ -265,6 +266,7 @@ body {
   }
 }
 .content2 .container {
+  max-width: auto;
   display: grid;
   grid-template-rows: auto auto;
   background-color: white;
@@ -276,7 +278,8 @@ body {
 }
 .content2 img {
   padding: 10px;
-  width: auto;
+  width: 90%;
+  padding-left: 15px;
 }
 .content2 p {
   padding-left: 10px;
@@ -368,10 +371,10 @@ body {
     width: 100%;
   }
 }
-/*Ini Prodi*/
 .prodi {
+  padding-top: 50px;
 }
-.prodi p {
-  font-size: 40px;
+.prodi .nama {
   text-align: center;
+  font-size: 48px;
 }
