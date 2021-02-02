@@ -5,36 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
     <link rel="stylesheet" type="" href="assets/css/style.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+    crossorigin="anonymous"
+  />
   </head>
   <body>
-    <!--Ini navbar-->
-    <div id="mySidebar" class="sidebar">
+       <!--Ini navbar-->
+       <div id="mySidebar" class="sidebar" style="width: 30%">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="#">S1</a>
-        <a href="#">Vokasi</a>
-        <a href="#">D3&D2</a>
+        <a href="#" style="border-style: groove none none none">S1</a>
+        <a href="#" style="border-style: groove none none none">S1</a>
+        <a href="#" style="border-style: groove none none none">S1</a>
+        <a href="#" style="border-style: groove none none none">S1</a>
+        <a href="#" style="border-style: groove none none none">S1</a>
+        <a href="#" style="border-style: groove none none none">S1</a>
+        <a href="#" style="border-style: groove none none none">S1</a>
+        <a href="#" style="border-style: groove none none none">S1</a>
+        <a href="#" style="border-style: groove none none none">S1</a>
+        <a href="#" style="border-style: groove none none none">S1</a>
+        <a href="#" style="border-style: groove none none none">S1</a>
+        <a href="#" style="border-style: groove none none none">S1</a>
+        <a href="#" style="border-style: groove none none none">S1</a>
+        <a href="#" style="border-style: groove none none none">S1</a>
       </div>
-    <div class="topnav">
-      <div class="wrapper">
-        <div>
-        <button type="opnbtn" onclick="openNav()">☰</button>
-        <img src="assets/img/Logo.png" alt="Icon" />
+      <nav style="padding: 20px">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-6 d-flex align-items-center">
+              <button
+                type="openbtn "
+                onclick="openNav()"
+                style="width: 40px; height: 40px"
+              >
+                ☰
+              </button>
+              <img
+                src="assets/img/Logo.png"
+                class="ml-2"
+                alt="Icon"
+                style="width: 50px; margin-left: 10px"
+              />
+            </div>
+            <div class="col-lg-8 col-6 d-flex justify-content-end">
+              <form class="text-right w-100 d-none d-lg-flex justify-content-end">
+                <input type="text" placeholder="Cari.." name="search" />
+                <button>search</button>
+              </form>
+              <a class="active px-3" href="#">Video</a>
+              <a href="homepage.html" class="">Home</a>
+            </div>
+            <div class="col-12 d-lg-none d-flex">
+              <form class="text-right w-100 justify-content-end">
+                <input type="text" placeholder="Cari.." name="search" />
+                <button>search</button>
+              </form>
+            </div>
+          </div>
         </div>
-        <div>
-        <a href="video.html">Video</a>
-      </div>
-      <div>
-        <a class="active" href="#">Home</a>
-      </div>
-        <div class="search-container">
-          <form>
-            <input type="text" placeholder="Cari.." name="search" />
-            <button>search</button>
-          </form>
-        </div>
-      </div>
-    </div>
-
+      </nav>
     <!--Ini Jumbotron-->
     <div class="wrapper">
       <div class="jumbotron">
