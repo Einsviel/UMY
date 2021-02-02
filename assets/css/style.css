@@ -13,7 +13,7 @@ body {
 nav a {
   color: black;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 20px;
 }
 /*Navbar*/
 @media only screen and (min-width: 769px) {
@@ -222,13 +222,18 @@ nav a {
 .content1 {
   display: grid;
   grid-template-columns: auto auto;
-  justify-content: cenater;
+  justify-content: center;
   column-gap: 10%;
   padding: 50px;
   background-color: #5a7e6a;
   text-align: center;
   color: white;
   font-size: 24px;
+}
+@media only screen and (max-width: 768px) {
+  .content1 {
+    grid-template-columns: auto;
+  }
 }
 .siaran {
   font-size: 24px;
