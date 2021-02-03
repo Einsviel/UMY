@@ -18,59 +18,70 @@
   </head>
   <body>
        <!--Ini navbar-->
-       <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="prodi.html" style="border-style: groove none none none;">Teknik</a>
-        <a href="prodi.html" style="border-style: groove none none none;">Perikanan</a>
-        <a href="prodi.html" style="border-style: groove none none none;">Sastra</a>
-        <a href="prodi.html" style="border-style: groove none none none;">Bahasa</a>
-        <a href="prodi.html" style="border-style: groove none none none;">Pendidikan</a>
-        <a href="prodi.html" style="border-style: groove none none none;">Sosiologi</a>
-      </div>
-        <nav>
-          <div class="containern wrapper">
-          <div class="row">
-            <div class="col-lg-4 col-6 d-flex align-items-center">
-              <button
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="prodi.html" style="border-style: groove none none none"
+        >Teknik</a
+      >
+      <a href="prodi.html" style="border-style: groove none none none"
+        >Perikanan</a
+      >
+      <a href="prodi.html" style="border-style: groove none none none"
+        >Sastra</a
+      >
+      <a href="prodi.html" style="border-style: groove none none none"
+        >Bahasa</a
+      >
+      <a href="prodi.html" style="border-style: groove none none none"
+        >Pendidikan</a
+      >
+      <a href="prodi.html" style="border-style: groove none none none"
+        >Sosiologi</a
+      >
+    </div>
+    <nav>
+      <div class="containern wrapper">
+        <div class="row">
+          <div class="col-lg-4 col-6 d-flex align-items-center">
+            <button
               type="openbtn "
-                onclick="openNav()"
-                style="width: 40px; height: 40px"
-              >
+              onclick="openNav()"
+              style="width: 40px; height: 40px"
+            >
               ☰
-              </button>
-              <img
-                src="assets/img/Logo.png"
-                class="ml-2"
-                alt="Icon"
-                style="width: 50px; margin-left: 10px"
-                />
-              </div>
-            <div class="col-lg-8 col-6 d-flex justify-content-end">
-              <form class="text-right w-100 d-none d-lg-flex justify-content-end">
-                <input type="text" placeholder="Cari.." name="search" />
-                <button>search</button>
-              </form>
-              <a class="active px-3" href="#">Video</a>
-              <a href="homepage.html" class="">Home</a>
-            </div>
-            <div class="topnav col-12 d-lg-none d-flex">
-              <form class="search-container text-right w-100 justify-content-end">
-                <input type="text" placeholder="Cari.." name="search" />
-                <button>search</button>
-              </form>
-            </div>
+            </button>
+            <img
+              src="assets/img/Logo.png"
+              class="ml-2"
+              alt="Icon"
+              style="width: 50px; margin-left: 40px"
+            />
           </div>
+          <div class="col-lg-8 col-6 d-flex justify-content-end">
+            <form class="text-right w-100 d-none d-lg-flex justify-content-end">
+              <input type="text" placeholder="Cari.." name="search" />
+              <div class="search-btn">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </div>
+            </form>
+            <a class="active px-3" href="homepage.html">Home</a>
+            <a href="video.html" class="">Video</a>
+          </div>
+          <div class="topnav col-12 d-lg-none d-flex"></div>
         </div>
-      </nav>
+      </div>
+    </nav>
       <!--Ini Jumbotron-->
       <div class="wrapper">
       <div class="jumbotron">
         <div>
-          <video width="75%" height="auto" controls autoplay>
+          <video width="100%" height="100%" controls autoplay>
             <source src="assets/vid/SNC.mp4" />
           </video>
         </div>
-        <div>
+        <div style="padding-left: 30px;">
           <p>Lorem ipsum dolor sit amet consectet</p>
           <a href="prodi.html">Video Selanjutnya</a>
         </div>
