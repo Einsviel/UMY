@@ -15,28 +15,38 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
   </head>
   <body>
     <!--Ini navbar-->
-    <div id="mySidebar" class="sidebar" style="width: 30%">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-      <a href="#" style="border-style: groove none none none">S1</a>
-      <a href="#" style="border-style: groove none none none">S1</a>
-      <a href="#" style="border-style: groove none none none">S1</a>
-      <a href="#" style="border-style: groove none none none">S1</a>
-      <a href="#" style="border-style: groove none none none">S1</a>
-      <a href="#" style="border-style: groove none none none">S1</a>
-      <a href="#" style="border-style: groove none none none">S1</a>
-      <a href="#" style="border-style: groove none none none">S1</a>
-      <a href="#" style="border-style: groove none none none">S1</a>
-      <a href="#" style="border-style: groove none none none">S1</a>
-      <a href="#" style="border-style: groove none none none">S1</a>
-      <a href="#" style="border-style: groove none none none">S1</a>
-      <a href="#" style="border-style: groove none none none">S1</a>
-      <a href="#" style="border-style: groove none none none">S1</a>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="prodi.html" style="border-style: groove none none none"
+        >Teknik</a
+      >
+      <a href="prodi.html" style="border-style: groove none none none"
+        >Perikanan</a
+      >
+      <a href="prodi.html" style="border-style: groove none none none"
+        >Sastra</a
+      >
+      <a href="prodi.html" style="border-style: groove none none none"
+        >Bahasa</a
+      >
+      <a href="prodi.html" style="border-style: groove none none none"
+        >Pendidikan</a
+      >
+      <a href="prodi.html" style="border-style: groove none none none"
+        >Sosiologi</a
+      >
     </div>
-    <nav style="padding: 20px">
-      <div class="container">
+    <nav>
+      <div class="containern wrapper">
         <div class="row">
           <div class="col-lg-4 col-6 d-flex align-items-center">
             <button
@@ -61,16 +71,15 @@
             <a class="active px-3" href="#">Video</a>
             <a href="homepage.html" class="">Home</a>
           </div>
-          <div class="col-12 d-lg-none d-flex">
-            <form class="text-right w-100 justify-content-end">
+          <div class="topnav col-12 d-lg-none d-flex">
+            <form class="search-container text-right w-100 justify-content-end">
               <input type="text" placeholder="Cari.." name="search" />
-              <button>search</button>
+              <a>search</a>
             </form>
           </div>
         </div>
       </div>
     </nav>
-
     <!--Ini video show-->
     <div class="vids wrapper">
       <div>
@@ -105,107 +114,187 @@
       <p>Video Terkait</p>
     </div>
     <div class="content2 wrapper">
-      <div class="container">
-        <a href="video.html"
-          ><img src="assets/img/thumb.png" alt="Thumbnail"
-        /></a>
-        <p>Judul</p>
+      <div class="containers">
+        <div class="bungkus">
+          <img src="assets/img/thumb.png" alt="Avatar" class="image" />
+          <div class="overlay">
+            <a href="video.html" class="icon" title="User Profile">
+              <i class="fa fa-play"></i>
+            </a>
+          </div>
+        </div>
+        <div class="p" style="padding-left: 20px">Judul</div>
       </div>
-      <div class="container">
-        <a href="video.html"><img src="assets/img/b2.png" alt="Thumbnail" /></a>
-        <p>Judul</p>
+      <div class="containers">
+        <div class="bungkus">
+          <img src="assets/img/b2.png" alt="Avatar" class="image" />
+          <div class="overlay">
+            <a href="video.html" class="icon" title="User Profile">
+              <i class="fa fa-play"></i>
+            </a>
+          </div>
+        </div>
+        <div class="p" style="padding-left: 20px">Judul</div>
       </div>
-      <div class="container">
-        <a href="video.html"
-          ><img src="assets/img/guru.png" alt="Thumbnail"
-        /></a>
-        <p>Judul</p>
+      <div class="containers">
+        <div class="bungkus">
+          <img src="assets/img/guru.png" alt="Avatar" class="image" />
+          <div class="overlay">
+            <a href="video.html" class="icon" title="User Profile">
+              <i class="fa fa-play"></i>
+            </a>
+          </div>
+        </div>
+        <div class="p" style="padding-left: 20px">Judul</div>
       </div>
-      <div class="container">
-        <a href="video.html"><img src="assets/img/b2.png" alt="Thumbnail" /></a>
-        <p>Judul</p>
+      <div class="containers">
+        <div class="bungkus">
+          <img src="assets/img/b2.png" alt="Avatar" class="image" />
+          <div class="overlay">
+            <a href="video.html" class="icon" title="User Profile">
+              <i class="fa fa-play"></i>
+            </a>
+          </div>
+        </div>
+        <div class="p" style="padding-left: 20px">Judul</div>
       </div>
     </div>
     <!--Ini Video Lainnya-->
     <div class="vidL wrapper">
       <h1>Video Lainnya</h1>
       <div class="content2">
-        <div class="container">
-          <a href="video.html"
-            ><img src="assets/img/thumb.png" alt="Thumbnail"
-          /></a>
-          <p>Judul</p>
+        <div class="containers">
+          <div class="bungkus">
+            <img src="assets/img/thumb.png" alt="Avatar" class="image" />
+            <div class="overlay">
+              <a href="video.html" class="icon" title="User Profile">
+                <i class="fa fa-play"></i>
+              </a>
+            </div>
+          </div>
+          <div class="p" style="padding-left: 20px;">Judul</div>
         </div>
-        <div class="container">
-          <a href="video.html"
-            ><img src="assets/img/b2.png" alt="Thumbnail"
-          /></a>
-          <p>Judul</p>
-        </div>
-        <div class="container">
-          <a href="video.html"
-            ><img src="assets/img/guru.png" alt="Thumbnail"
-          /></a>
-          <p>Judul</p>
-        </div>
-        <div class="container">
-          <a href="video.html"
-            ><img src="assets/img/b2.png" alt="Thumbnail"
-          /></a>
-          <p>Judul</p>
-        </div>
-        <div class="container">
-          <a href="video.html"
-            ><img src="assets/img/thumb.png" alt="Thumbnail"
-          /></a>
-          <p>Judul</p>
-        </div>
-        <div class="container">
-          <a href="video.html"
-            ><img src="assets/img/b2.png" alt="Thumbnail"
-          /></a>
-          <p>Judul</p>
-        </div>
-        <div class="container">
-          <a href="video.html"
-            ><img src="assets/img/guru.png" alt="Thumbnail"
-          /></a>
-          <p>Judul</p>
-        </div>
-        <div class="container">
-          <a href="video.html"
-            ><img src="assets/img/b2.png" alt="Thumbnail"
-          /></a>
-          <p>Judul</p>
-        </div>
-        <div class="container">
-          <a href="video.html"
-            ><img src="assets/img/thumb.png" alt="Thumbnail"
-          /></a>
-          <p>Judul</p>
-        </div>
-        <div class="container">
-          <a href="video.html"
-            ><img src="assets/img/b2.png" alt="Thumbnail"
-          /></a>
-          <p>Judul</p>
-        </div>
-        <div class="container">
-          <a href="video.html"
-            ><img src="assets/img/guru.png" alt="Thumbnail"
-          /></a>
-          <p>Judul</p>
-        </div>
-        <div class="container">
-          <a href="video.html"
-            ><img src="assets/img/b2.png" alt="Thumbnail"
-          /></a>
-          <p>Judul</p>
-        </div>
-      </div>
-      <div class="next">
-        <a href="">Video Lainnya</a>
-      </div>
+          <div class="containers">
+            <div class="bungkus">
+              <img src="assets/img/b2.png" alt="Avatar" class="image" />
+              <div class="overlay">
+                <a href="video.html" class="icon" title="User Profile">
+                  <i class="fa fa-play"></i>
+                </a>
+              </div>
+            </div>
+            <div class="p" style="padding-left: 20px;">Judul</div>
+          </div>
+          <div class="containers">
+            <div class="bungkus">
+              <img src="assets/img/guru.png" alt="Avatar" class="image" />
+              <div class="overlay">
+                <a href="video.html" class="icon" title="User Profile">
+                  <i class="fa fa-play"></i>
+                </a>
+              </div>
+            </div>
+            <div class="p" style="padding-left: 20px;">Judul</div>
+          </div>
+          <div class="containers">
+            <div class="bungkus">
+              <img src="assets/img/b2.png" alt="Avatar" class="image" />
+              <div class="overlay">
+                <a href="video.html" class="icon" title="User Profile">
+                  <i class="fa fa-play"></i>
+                </a>
+              </div>
+            </div>
+            <div class="p" style="padding-left: 20px;">Judul</div>
+          </div>
+          <div class="containers">
+            <div class="bungkus">
+              <img src="assets/img/thumb.png" alt="Avatar" class="image" />
+              <div class="overlay">
+                <a href="video.html" class="icon" title="User Profile">
+                  <i class="fa fa-play"></i>
+                </a>
+              </div>
+            </div>
+            <div class="p" style="padding-left: 20px;">Judul</div>
+          </div>
+            <div class="containers">
+              <div class="bungkus">
+                <img src="assets/img/b2.png" alt="Avatar" class="image" />
+                <div class="overlay">
+                  <a href="video.html" class="icon" title="User Profile">
+                    <i class="fa fa-play"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="p" style="padding-left: 20px;">Judul</div>
+            </div>
+            <div class="containers">
+              <div class="bungkus">
+                <img src="assets/img/guru.png" alt="Avatar" class="image" />
+                <div class="overlay">
+                  <a href="video.html" class="icon" title="User Profile">
+                    <i class="fa fa-play"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="p" style="padding-left: 20px;">Judul</div>
+            </div>
+            <div class="containers">
+              <div class="bungkus">
+                <img src="assets/img/b2.png" alt="Avatar" class="image" />
+                <div class="overlay">
+                  <a href="video.html" class="icon" title="User Profile">
+                    <i class="fa fa-play"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="p" style="padding-left: 20px;">Judul</div>
+            </div>
+            <div class="containers">
+              <div class="bungkus">
+                <img src="assets/img/thumb.png" alt="Avatar" class="image" />
+                <div class="overlay">
+                  <a href="video.html" class="icon" title="User Profile">
+                    <i class="fa fa-play"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="p" style="padding-left: 20px;">Judul</div>
+            </div>
+              <div class="containers">
+                <div class="bungkus">
+                  <img src="assets/img/b2.png" alt="Avatar" class="image" />
+                  <div class="overlay">
+                    <a href="video.html" class="icon" title="User Profile">
+                      <i class="fa fa-play"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="p" style="padding-left: 20px;">Judul</div>
+              </div>
+              <div class="containers">
+                <div class="bungkus">
+                  <img src="assets/img/guru.png" alt="Avatar" class="image" />
+                  <div class="overlay">
+                    <a href="video.html" class="icon" title="User Profile">
+                      <i class="fa fa-play"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="p" style="padding-left: 20px;">Judul</div>
+              </div>
+              <div class="containers">
+                <div class="bungkus">
+                  <img src="assets/img/b2.png" alt="Avatar" class="image" />
+                  <div class="overlay">
+                    <a href="video.html" class="icon" title="User Profile">
+                      <i class="fa fa-play"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="p" style="padding-left: 20px;">Judul</div>
+              </div>
     </div>
 
     <!--Ini Footer-->
